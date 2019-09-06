@@ -1,0 +1,116 @@
+@import 'https://fonts.googleapis.com/css?family=Inconsolata';
+body {
+  background: #EBF5EE;
+}
+
+.page-wrapper {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.title {
+  font-family: 'Inconsolata', monospace;
+  font-size: 4em;
+  padding-bottom: 15px;
+  width: 800px;
+  background-color: #BFD1E5;
+  color: #6441a5;
+}
+
+.circle {
+  display: block;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  font-size: 15px;
+  color: white;
+  line-height: 50px;
+  text-align: center;
+  margin-top: 15px;
+  text-decoration: none;
+  position: relative;
+  top: 0px;
+  transition: transform .2s ease-in-out;
+}
+
+.circle:hover,
+.circle.hover {
+  color: white;
+  text-decoration: none;
+  transform: translate3d(0px, 15px, 0px);
+}
+
+.circle-grey {
+  background: grey;
+}
+
+.circle-grey:hover,
+.circle-grey.hover {
+  background: black;
+}
+
+.circle-green {
+  background: #8EB897;
+}
+
+.circle-green:hover,
+.circle-green.hover {
+  background: green;
+}
+
+.circle-red {
+  background: #D3AB9E;
+}
+
+.circle-red:hover,
+.circle-red.hover {
+  background: red;
+}
+
+.entry {
+  width: 800px;
+  border-top: 1px solid grey;
+  border-bottom: 1px solid grey;
+  background: lightgrey;
+  padding: 20px;
+  color: white;
+}
+
+#online {
+  background: #8EB897;
+}
+
+#offline {
+  background: #D3AB9E;
+}
+
+#closed {
+  background: #D3AB9E;
+}
+
+.avatar {
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  border: 1px solid grey;
+}
+
+.user {
+  font-family: 'Inconsolata', monospace;
+  font-size: 1.5em;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+.description {
+  font-family: 'Inconsolata', monospace;
+  font-size: 1.25em;
+}
